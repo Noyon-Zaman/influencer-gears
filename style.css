@@ -69,9 +69,54 @@ body{
 /* -----------
      #sec2
 --------------*/
-.sec2{
+.sec2-title{
+    text-align: center;
     margin-top: 150px;
+    padding-bottom: 30px;
+}
+.sec-part2{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.product{
+    width: 300px;
+    height: 455px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 17px 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.product img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+.product p{
+    width: 196px;
+    height: 61px;
+}
+.rating{
+    font-size: 14px;
+}
+.rating i{
+    margin: 0;
+}
+.rating >.rate{
+    padding-left:10px;
+    display:inline ;
+}
+.fa-star.filled{
+    color: orange;
+}
+.products #more a,.ar{
+    color: #E02C6D;
+    text-decoration: none;
+    align-items: center;
 }
